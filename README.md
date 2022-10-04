@@ -16,3 +16,9 @@ For week 9 - Software / Website development
 For week 10 - Video Demonstration / Presentation
 For week 11 - Final Documentation
 
+Accomplishments:
+- Created proposal
+- Consultation with mentor
+- Created Mockup UI
+- Created initial website using html/css/nodeJS
+
