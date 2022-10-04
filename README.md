@@ -2,7 +2,7 @@
 
 Members:
 Escala, Jasper Adrian
-Pua, Marc Lawrence
+Pua, Marc Lawrence C.
 Jasmin, Ma. Crisanta
 Lanuza, Rodmar
 
