@@ -25,3 +25,5 @@ Accomplishments Week 6 to 7:
 Accomplishments Week 8:
 - Developed initial drafts for the html site
 - Partial Codes for nodejs
+
+Link for updated gantt chart: https://bit.ly/3T3Aucf
