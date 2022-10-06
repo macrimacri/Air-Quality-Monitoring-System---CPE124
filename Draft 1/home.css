@@ -1,0 +1,47 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #232323;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-image {
+  width: 256px;
+  height: 193px;
+  object-fit: cover;
+}
+.home-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.home-text {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: 700;
+}
+.home-dashboard {
+  top: 194px;
+  left: 390px;
+  color: var(--dl-color-primary-500);
+  position: absolute;
+  font-size: 45px;
+  align-self: flex-start;
+  text-decoration: underline;
+}
