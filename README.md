@@ -23,5 +23,6 @@ Accomplishments Week 6 to 7:
 - Created initial website using html/css/nodeJS
 
 Accomplishments Week 8:
+- Developed initial drafts for the html site
 
 
