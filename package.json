@@ -1,10 +1,17 @@
 {
-  "name": "air-quality-monitoring-system",
+  "name": "express-demo",
   "version": "1.0.0",
-  "private": true,
-  "dependencies": {
-    "parcel-bundler": "^1.6.1"
+  "description": "",
+  "main": "WOTapp.js",
+  "scripts": {
+    "dev": "nodemon ./WOTapp.js"
   },
-  "scripts": {},
-  "devDependencies": {}
+  "keywords": [],
+  "author": "PUA Marc Lawrence C.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "joi": "^17.6.2",
+    "pug": "^3.0.2"
+  }
 }
