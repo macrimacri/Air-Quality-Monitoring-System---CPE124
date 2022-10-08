@@ -26,5 +26,5 @@ Accomplishments Week 8:
 - Developed initial drafts for the html site
 - Partial Codes for nodejs
 
-Link for updated gantt chart: https://bit.ly/3T3Aucf
-Link for update WoT Documentation: https://bit.ly/3Eohpx5
+- Link for updated gantt chart: https://bit.ly/3T3Aucf
+- Link for update WoT Documentation: https://bit.ly/3Eohpx5
