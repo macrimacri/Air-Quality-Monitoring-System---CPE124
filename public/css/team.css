@@ -1,0 +1,13 @@
+.team-container{
+    background-color: white;
+    top: 300px;
+    left: 100px;
+    right:100px;
+    width: 1150px;
+    position: absolute;
+    align-self: flex-start;
+    text-align: justify;
+}
+.details{
+    font-size: large;
+}
