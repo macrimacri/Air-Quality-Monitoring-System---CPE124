@@ -28,3 +28,9 @@ Accomplishments Week 8:
 
 - Link for updated gantt chart: https://bit.ly/3T3Aucf
 - Link for updated WoT Documentation: https://bit.ly/3Eohpx5
+
+Accomplishments Week 9:
+- Updated Mockup for WoT UI
+![image](https://user-images.githubusercontent.com/114989767/194764194-421deead-af48-4811-8691-ac8393619c98.png)
+
+
