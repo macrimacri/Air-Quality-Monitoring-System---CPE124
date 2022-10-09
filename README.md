@@ -8,13 +8,13 @@ Lanuza, Rodmar
 
 Schedule of Activities:
 
-For week 5 - Conceptualization
-For week 6 - Writing of the project proposal
-For week 7  - Initial meeting with the mentor
-For week 8 - Hardware / Website development
-For week 9 - Software development
-For week 10 - Video Demonstration / Presentation
-For week 11 - Final Documentation
+ - Conceptualization *Week 5*
+ - Writing of the project proposal *Week 6*
+ - Initial meeting with the mentor *Week 7*
+ - Hardware / Website development *Week 8*
+ - Software development *Week 9*
+ - Video Demonstration / Presentation *Week 10*
+ - Final Documentation *Week 11*
 
 Accomplishments Week 6 to 7:
 - Created proposal
