@@ -1,0 +1,26 @@
+extends layout 
+
+block content 
+    link(rel='stylesheet',href='/css/style.css')
+    link(rel='stylesheet', href = '/css/dashboard.css')
+    .home-team
+        .home-heading-container2 
+            h1.home-text16.section-Heading Sensor Readings
+        .home-cards-container2 
+            .home-team-card 
+                .home-avatar-container 
+                    h1.sensor-text #{temp} C
+                span.home-name.card-Heading Temperature
+            .home-team-card
+                .home-avatar-container
+                    h1.sensor-text #{humR} %
+                span.home-name.card-Heading Humidity
+            .home-team-card
+                .home-avatar-container
+                    h1.sensor-text #{co2} ppm
+                span.home-name.card-Heading Carbon Dioxide Concentration
+            .home-team-card
+                .home-avatar-container
+                    h1.sensor-text #{co} ppm
+                span.home-name.card-Heading Carbon Monoxide Concentration
+    .home-seciton-separator1  

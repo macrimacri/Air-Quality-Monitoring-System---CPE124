@@ -1,5 +1,10 @@
 extends layout 
 
-block content 
-    
-            
+block content
+    link(rel='stylesheet',href='/css/style.css')
+    link(rel='stylesheet', href = '/css/home.css')
+    .home-hero(id="resources")
+        .home-content-container 
+            .home-hero-text 
+                h1.home-heading.section-Heading  Air-Quality Monitoring System 
+                span.home-text.section-Text In this project, Air Quality is being monitored through WOT(Web of things) by the use of a Raspberry pi 4 and a NodeMCU. NodeJS is used to host the server that could be accessed with devices that are connected locally. NodeMCU would be the sensor node of the project, which the Dht sensor, MQ Sensor are connected to. Through MQQT connection the two boards would communicate sending sensor readings. The Nodejs server would be the one to display all the recieved readings from the sensors.

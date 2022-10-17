@@ -3,26 +3,13 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000; //PORT
 app.use(express.json());
-
 app.set('views',path.join(__dirname,'views'));
 app.set('view engine','pug');
 app.use(express.static(path.join(__dirname,'public')));
-
-/*
-const sensorVals=[
-    {id:1, name:'Humidity', reading:'0'},
-    {id:2, name:'Temperature', reading:'0'},
-    {id:3, name:'Carbon Monoxide Reading', reading:'0'},
-    {id:4, name:'Carbon Dioxide Reading', reading:'0'},
-];
-*/
-
-const members =[
-    {name:'Marc Lawrence C. Pua'},
-    {name:'Macrisanta Jasmin'},
-    {name:'Jasper Adrian S. Escala'},
-    {name:'Rodmar Lanuza'},
-];
+var temperature = 0.00,
+    humidity = 0.00,
+    carbon1 = 0.00,
+    carbon2 = 0.00;
 
 //Home
 app.get('/', (req,res) => {
@@ -34,7 +21,11 @@ app.get('/', (req,res) => {
 //Dashboard
 app.get('/dashboard', (req,res) => {
     res.render('dashboard',{
-        title: 'Dashboard'
+        title: 'Dashboard',
+        temp: temperature,
+        humR: humidity,
+        co2: carbon2,
+        co: carbon1
     });
 });
 
@@ -48,12 +39,16 @@ app.get('/about', (req,res) => {
 //team
 app.get('/team', (req,res) => {
     res.render('team',{
-        title: 'Team',
-        team: members 
+        title: 'Team'
     });
 });
 
-
-
+app.put('/sensorUpdate',(req, res) => {
+    temperature = req.body.temp;
+    humidity = req.body.Rhum;
+    carbon2 = req.body.co2;
+    carbon1 = req.body.co;
+    res.send("data sent!!!");
+});
 
 app.listen(port, () => console.log(`Server Started...Port ${port}`));
