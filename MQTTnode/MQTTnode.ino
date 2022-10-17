@@ -3,10 +3,10 @@
 #include <DHT.h>
 #include <ArduinoJson.h>
 #include <MQ135.h>
-#define SERVER_IP "192.168.1.29:3000"
+#define SERVER_IP "raspberrypi.local:3000"
 #ifndef STASSID
-#define STASSID "WIFI upper"
-#define STAPSK "wlan2f9097"
+#define STASSID "**********"
+#define STAPSK "*************"
 #endif
 
 DHT dht (2,DHT11);
