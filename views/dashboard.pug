@@ -3,6 +3,11 @@ extends layout
 block content 
     link(rel='stylesheet',href='/css/style.css')
     link(rel='stylesheet', href = '/css/dashboard.css')
+    script.
+        window.setInterval('refresh()',2000);
+        function refresh(){
+            window.location.reload();
+        }
     .home-team
         .home-heading-container2 
             h1.home-text16.section-Heading Sensor Readings
