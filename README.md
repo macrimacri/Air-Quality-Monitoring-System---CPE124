@@ -37,6 +37,7 @@ Accomplishments Week 10:
 - Updated WoT Documentation: https://bit.ly/3Eohpx5
 - Created PPT for MLV 1: https://bit.ly/3s44Dg5
 - Video Demonstration and Presentation *Ongoing*
+- Final Deliverables folder link: https://bit.ly/3VJokHq
 - Final website UI & Prototype Setup
 ![301931821_1318877072250418_952108767768055989_n](https://user-images.githubusercontent.com/114989767/196605092-6a72e998-b6de-4ec3-9e91-4f7699b9a722.png)
 ![307527887_780357006598572_3644981632818882806_n](https://user-images.githubusercontent.com/114989767/196605098-eba89f59-6d52-4532-9d99-70d2e62ee135.png)
